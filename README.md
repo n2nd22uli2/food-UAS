@@ -409,20 +409,6 @@ Aplikasi ini menggunakan kombinasi data dari dua sumber: **Firebase Firestore** 
 
 #### 1. Data User (Firebase Firestore)
 
-**Collection**: `users`
-
-```json
-{
-  "uid": "abc123xyz",
-  "name": "John Doe",
-  "email": "user1@test.com",
-  "phone": "081234567890",
-  "address": "",
-  "photoUrl": "",
-  "createdAt": Timestamp(1234567890)
-}
-```
-
 **Field Details:**
 
 | Field | Type | Required | Deskripsi |
@@ -806,3 +792,4 @@ class Meal {
   }
 
   factory Meal.fromDetailJson(Map
+
